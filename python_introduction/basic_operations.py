@@ -7,7 +7,7 @@ print(f"Addition of {number1} and {number2} is {sum}")
 difference = number1 - number2
 print(f"Subtraction of {number1} and {number2} is {difference}")
 
-mult = number1 * number2
-print(f"Multiplication of {number1} and {number2} is {mult}")
+product = number1 * number2
+print(f"Multiplication of {number1} and {number2} is {product}")
 
  
