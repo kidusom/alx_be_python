@@ -1,9 +1,8 @@
 number1 = 10
 number2 = 5
 
-# Calculate the sum
-Addition  = number1 + number2
-print(f"Sum of {number1} and {number2} is {Addition}.")
+sum  = number1 + number2
+print(f"Addition of {number1} and {number2} is {sum}")
 
 # Calculate the difference (number1 - number2)
 difference_result = number1 - number2
