@@ -13,10 +13,15 @@ match priority:
     case "low":
         reminder = f" {task} is a low priority task"
     case _:
-        reminder = "Invalid priority. Please enter high, medium, or low."
+        reminde = "Invalid priority. Please enter high, medium, or low."
      
 if time_bound == "yes":
-    reminder += " that requires immediate attention today!"
+    reminder += "that requires immediate attention today!"
+    print(f'Reminder:{reminder}') 
+elif time_bound == "no":
+    reminder += "  is a low priority task. Consider completing it when you have free time."
+    print(f'Note:{reminder}') 
 
-print(f'Reminder:{reminder}')    
+    
+ 
 
