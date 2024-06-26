@@ -21,7 +21,7 @@ match priority:
         reminder = "Invalid priority. Please enter high, medium, or low."
      
 if time_bound == "yes":
-    reminder += " that requires immediate attention today!"
+    reminder = " that requires immediate attention today!"
 
 print(f'Reminder:{reminder}')    
 
