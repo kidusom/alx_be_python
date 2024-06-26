@@ -16,10 +16,10 @@ match priority:
         reminde = "Invalid priority. Please enter high, medium, or low."
      
 if time_bound == "yes":
-    reminder += "that requires immediate attention today!"
+    reminder += " that requires immediate attention today!"
     print(f'Reminder:{reminder}') 
 elif time_bound == "no":
-    reminder += "  is a low priority task. Consider completing it when you have free time."
+    reminder += " is a low priority task. Consider completing it when you have free time."
     print(f'Note:{reminder}') 
 
     
