@@ -12,11 +12,11 @@ time_bound = input('Is it time-bound? (yes/no):')
  
 match priority:
     case "high":
-        reminder = f" {task} (Priority: High)"
+        reminder = f"{task} "
     case "medium":
-        reminder = f" {task} (Priority: Medium)"
+        reminder = f"{task} "
     case "low":
-        reminder = f" {task} (Priority: Low)"
+        reminder = f"{task} "
     case _:
         reminder = "Invalid priority. Please enter high, medium, or low."
      
