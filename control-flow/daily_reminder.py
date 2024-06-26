@@ -1,6 +1,6 @@
-task =  (input('Enter your task:'))
-priority = (input('Priority (high/medium/low)'))
-time = (input('Is it time-bound? (yes/no)'))
+task = input('Enter your task:')
+priority = input('Priority (high/medium/low)')
+time = input('Is it time-bound? (yes/no)')
 
 highyes = print(f'{task} is a high priority task that requires immediate attention today!')
 highno = print(f'{task} is a high priority task with no time bound')
