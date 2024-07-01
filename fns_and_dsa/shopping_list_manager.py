@@ -33,14 +33,14 @@ def main():
         choice = input("Enter your choice: ")
 
         if choice == '1':
-            # Prompt for and add an item
-            pass
+            return add_items(shopping_list)
+             
         elif choice == '2':
-            # Prompt for and remove an item
-            pass
+           return remove_items(shopping_list)
+        
         elif choice == '3':
-            # Display the shopping list
-            pass
+           return view_list(shopping_list)
+             
         elif choice == '4':
             print("Goodbye!")
             break
