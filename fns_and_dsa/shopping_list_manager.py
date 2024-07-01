@@ -1,9 +1,3 @@
-def display_name() :
-    print('Shopping List Manager')
-    print('1. Add Items')
-    print('2. Remove Items')
-    print('3. View List') 
-    print('4. Exit')
  
 def add_items(shopping_list):
     item = input("Enter the item to add: ")
@@ -25,22 +19,28 @@ def view_list(shopping_list):
         for i, item in enumerate(shopping_list, start=1):
             print(f"{i}. {item}")    
 
-def main():
-    shopping_list : []  
+def display_menu():
+    print("Shopping List Manager")
+    print("1. Add Item")
+    print("2. Remove Item")
+    print("3. View List")
+    print("4. Exit")
 
+def main():
+    shopping_list = []
     while True:
-        display_name ()
-        choice = input("Choose an option (1-4): ")
+        display_menu()
+        choice = input("Enter your choice: ")
 
         if choice == '1':
-           add_items(shopping_list)
-
+            # Prompt for and add an item
+            pass
         elif choice == '2':
-         pass
-             
+            # Prompt for and remove an item
+            pass
         elif choice == '3':
-         view_list(shopping_list)
-
+            # Display the shopping list
+            pass
         elif choice == '4':
             print("Goodbye!")
             break
@@ -48,4 +48,4 @@ def main():
             print("Invalid choice. Please try again.")
 
 if __name__ == "__main__":
-    main()        
+    main()      
