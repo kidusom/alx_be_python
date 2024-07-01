@@ -1,11 +1,11 @@
-C_TO_F = 0.555
-F_TO_C= 1.8
+CELSIUS_TO_FAHRENHEIT_FACTOR = 9/5
+FAHRENHEIT_TO_CELSIUS_FACTOR = 5/9
 
 def convert_to_celsius(temp):
-  return temp * C_TO_F  
+  return temp * CELSIUS_TO_FAHRENHEIT_FACTOR 
 
 def convert_to_fahrenheit(temp):   
-  return temp * F_TO_C
+  return temp * FAHRENHEIT_TO_CELSIUS_FACTOR
 
 def main():
  while True:
