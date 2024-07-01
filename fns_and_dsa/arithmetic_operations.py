@@ -10,10 +10,10 @@ def perform_operation(num1, num2, operation):
             return num1 * num2
     
     elif operation == 'divide' :    
-            if num2 !=0: 
-               return num1/num2
-            else: print("second number cant be zero")   
-
+            if num2 == 0 : 
+               print("second number cant be zero") 
+            else:  return num1/num2   
+     
 
 def main():
     print("Arithmetic Operations")
